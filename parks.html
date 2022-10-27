@@ -19,15 +19,22 @@
                 <a href="parks.html">Explore Parks</a>
             </li>
         </ul>
-        <h1>National Parks</h1> 
-        <img src="https://www.planetware.com/photos-large/USWY/usa-wyoming-yellowstone-grand-prismatic-spring.jpg" class="park1" alt="park1">
-        <img src="https://www.jetsetter.com//uploads/sites/7/2018/04/rdIAqLTD.jpeg" class="park2" alt="park2">
-        <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/fairyland-royalty-free-image-1597866572.jpg" class="park3" alt="park3">
+        <h1>National Parks</h1>
+          <div class="container">
+            <img src="https://www.jetsetter.com//uploads/sites/7/2018/04/rdIAqLTD.jpeg" class="park2" alt="park2">
+            <div class="overlay">
+              <div class="text">Grand Canyon National Park. Photo taken by Yenifer T.</div>
+            </div>
+          </div>
+          <p>
+            <select id="location" value=""><option value="">Select a Location</option></select>
+                <select id="type" value=""><option value="">Select a Type</option></select>
+                </p>
+          <div id="results"></div>
+          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         <nav id="nav"></nav>
-    <select id="location" value=""><option value="">Select a Location</option></select>
-    <select id="type" value=""><option value="">Select a Type</option></select>
-    
-    <div id="results"></div>
+        <img src="https://static.vecteezy.com/system/resources/previews/002/445/920/original/social-media-facebook-instagram-logos-bundle-free-vector.jpg" class="icon">
+        <p>@TravelBreeze<br>Tag us with your amazing pictures so we can feature them here! </p>
     <script src="Scripts/locationData.js"></script>
     <script src="Scripts/parkTypeData.js"></script>
     <script src="Scripts/nationalParkData.js"></script>
