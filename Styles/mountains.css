@@ -38,6 +38,8 @@ h1 {
 
 body {
     background-color:antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
 }
 
 h1 {
@@ -47,23 +49,25 @@ h1 {
 
 .card{
     margin: 3px 9px 9px 3px;
-    padding: 0.5rem;
+    padding: 0.1rem;
     border-radius: 1rem;
-    width: 160px;
-    min-height: 80px;
+    width: 45vw;
+    min-height: 100px;
     display: inline-flex;
     box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.5);
+    text-align: left;
 }
 .card img{
-    width: 35%;
-    object-fit: contain;
+    width: 20vh;
+    height: 20vh;
+    object-fit: fill;
     border-radius: 0.5rem;
     border: 1px inset;
 }
 
 .home img{
     margin-top: 6px;
-    max-width: 40vw;
+    max-width: 20vw;
     border-radius: 6px;
     border: 1px inset;
     height: 300px;
@@ -111,9 +115,17 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    text-align: center;
+    text-align: left;
   }
 
   p {
     color: grey;
   }
+
+
+
+
+#results {
+    font-size: 20px;
+}
+
