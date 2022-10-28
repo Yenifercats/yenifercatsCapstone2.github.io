@@ -1,9 +1,5 @@
-.mountain2 {
-    width: 500px;
-    clip-path: circle();
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+body {
+    background-color: lightblue;
 }
 
 ul {
@@ -11,7 +7,7 @@ ul {
     padding: 0;
     list-style: none;
     overflow: hidden;
-    background-color: antiquewhite;
+    background-color: lightblue;
 
 }
 
@@ -22,7 +18,7 @@ li {
 li a {
     display: block;
     text-decoration: none;
-    color: grey;
+    color: rgb(228, 228, 241);
     text-align: center;
     padding: 20px 90px;
     font-size: 20px;
@@ -33,44 +29,17 @@ li a:hover {
 }
 
 h1 {
-    color: grey;
-}
-
-body {
-    background-color:antiquewhite;
-}
-
-h1 {
+    color: white;
     font-size: 100px;
 }
 
-
-.card{
-    margin: 3px 9px 9px 3px;
-    padding: 0.5rem;
-    border-radius: 1rem;
-    width: 160px;
-    min-height: 80px;
-    display: inline-flex;
-    box-shadow: 1px 1px 0px 0px rgba(0,0,0,0.5);
+.planet {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 500px;
+    clip-path: circle();
 }
-.card img{
-    width: 35%;
-    object-fit: contain;
-    border-radius: 0.5rem;
-    border: 1px inset;
-}
-
-.home img{
-    margin-top: 6px;
-    max-width: 40vw;
-    border-radius: 6px;
-    border: 1px inset;
-    height: 300px;
-    object-fit: cover;
-}
-
-
 
 .container {
     position: relative;
@@ -90,12 +59,12 @@ h1 {
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: grey;
+    background-color: lightskyblue;
     clip-path: circle();
     margin-left: auto;
     margin-right: auto;
     display: block;
-    height: 750px;
+    height: 500px;
     width: 500px;
   }
   
@@ -112,8 +81,4 @@ h1 {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-  }
-
-  p {
-    color: grey;
   }
