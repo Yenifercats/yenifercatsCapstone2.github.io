@@ -75,7 +75,7 @@ h1 { text-align: center;
         opacity: 0;
         transition: .5s ease;
         background-color: whitesmoke;
-        clip-path: circle();
+        clip-path:circle();
         margin-left: auto;
         margin-right: auto;
         display: block;
